@@ -1,40 +1,335 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>beIN CONNECT - المباريات المباشرة</title>
-    <style>
-        /* نظام الألوان الخاص بهوية beIN SPORTS المميزة */
-        :root {
-            --bein-purple: #4c1255;
-            --bein-purple-dark: #2c0533;
-            --bein-accent: #ff007f;
-            --bg-main: #0c0810;
-            --bg-card: #18121e;
-            --bg-card-hover: #211929;
-            --text-primary: #ffffff;
-            --text-secondary: #b0a5b7;
-            --live-red: #ff0033;
-            --border-line: #291d30;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: var(--bg-main);
-            color: var(--text-primary);
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-            padding: 8px;
-            min-height: 100vh;
-            -webkit-tap-highlight-color: transparent;
-        }
-
-        .container {
+[
+    {
+        "sport": "football",
+        "home_team": "Atyrau",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk29321.png?w=18&h=18&f=sd",
+        "away_team": "Caspiy Aktau",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk23752.png?w=18&h=18&f=sd",
+        "score": "1-2",
+        "time_minutes": "79",
+        "stream_url": "https://en12.sportplus.live/football/kazakhstan-championship/8021774/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Aktobe",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk29315.png?w=18&h=18&f=sd",
+        "away_team": "Zhetysu",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk29318.png?w=18&h=18&f=sd",
+        "score": "1-0",
+        "time_minutes": "74",
+        "stream_url": "https://en12.sportplus.live/football/kazakhstan-championship/8021775/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Kaysar",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk23753.png?w=18&h=18&f=sd",
+        "away_team": "Irtysh Pavlodar",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk28875.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "35",
+        "stream_url": "https://en12.sportplus.live/football/kazakhstan-championship/8021990/"
+    },
+    {
+        "sport": "hockey",
+        "home_team": "Titan Bryansk",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1171137.png?w=18&h=18&f=sd",
+        "away_team": "Atlant Orel",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1170903.png?w=18&h=18&f=sd",
+        "score": "4-4",
+        "time_minutes": "P3 30",
+        "stream_url": "https://en12.sportplus.live/hockey/2454428/8036914/"
+    },
+    {
+        "sport": "hockey",
+        "home_team": "Tigry Tyumen",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1172720.png?w=18&h=18&f=sd",
+        "away_team": "Sparta Krasnoyarsk",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1172719.png?w=18&h=18&f=sd",
+        "score": "1-1",
+        "time_minutes": "P1 6",
+        "stream_url": "https://en12.sportplus.live/hockey/2454428/8036879/"
+    },
+    {
+        "sport": "tennis",
+        "home_team": "Roman Safiullin",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk50483.png?w=18&h=18&f=sd",
+        "away_team": "Novak Djokovic",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk20014.png?w=18&h=18&f=sd",
+        "score": "1-2",
+        "time_minutes": "S4",
+        "stream_url": "https://en12.sportplus.live/tennis/wimbledon/8032087/"
+    },
+    {
+        "sport": "tennis",
+        "home_team": "Felix Auger Aliassime",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk24499.png?w=18&h=18&f=sd",
+        "away_team": "Alejandro Davidovich Fokina",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk28174.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "S1",
+        "stream_url": "https://en12.sportplus.live/tennis/wimbledon/8032344/"
+    },
+    {
+        "sport": "tennis",
+        "home_team": "Willis/Watson",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1419419.png?w=18&h=18&f=sd",
+        "away_team": "Harrison/Zhang",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1419422.png?w=18&h=18&f=sd",
+        "score": "0-1",
+        "time_minutes": "S2",
+        "stream_url": "https://en12.sportplus.live/tennis/wimbledon-mixed/8034969/"
+    },
+    {
+        "sport": "tennis",
+        "home_team": "Andreozzi/Sutjiadi",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1419381.png?w=18&h=18&f=sd",
+        "away_team": "Danilina/Tracy",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1391314.png?w=18&h=18&f=sd",
+        "score": "1-0",
+        "time_minutes": "S2",
+        "stream_url": "https://en12.sportplus.live/tennis/wimbledon-mixed/8032283/"
+    },
+    {
+        "sport": "tennis",
+        "home_team": "Cabral/Perez",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1391293.png?w=18&h=18&f=sd",
+        "away_team": "Krawczyk/Skupski",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk990465.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "Live",
+        "stream_url": "https://en12.sportplus.live/tennis/wimbledon-mixed/8035453/"
+    },
+    {
+        "sport": "tennis",
+        "home_team": "Korpatsch/Fossa Huergo",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1412028.png?w=18&h=18&f=sd",
+        "away_team": "Noskova/Sramkova",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1115258.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "S1",
+        "stream_url": "https://en12.sportplus.live/tennis/wimbledon-women-doubles/8032299/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Rapid Wien",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk17601.png?w=18&h=18&f=sd",
+        "away_team": "Rapid Bucuresti",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk19229.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "20",
+        "stream_url": "https://en12.sportplus.live/football/club-friendly/8034500/"
+    },
+    {
+        "sport": "football",
+        "home_team": "AC Omonia",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk31977.png?w=18&h=18&f=sd",
+        "away_team": "Hapoel Be'er Sheva",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk24135.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "1",
+        "stream_url": "https://en12.sportplus.live/football/club-friendly/8036044/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Kharkiv",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1266574.png?w=18&h=18&f=sd",
+        "away_team": "Young Boys",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk17502.png?w=18&h=18&f=sd",
+        "score": "0-2",
+        "time_minutes": "80",
+        "stream_url": "https://en12.sportplus.live/football/club-friendly/8032841/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Dacia Buiucani",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk124296.png?w=18&h=18&f=sd",
+        "away_team": "Real Sireti",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1313571.png?w=18&h=18&f=sd",
+        "score": "2-0",
+        "time_minutes": "33",
+        "stream_url": "https://en12.sportplus.live/football/2449835/8032570/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Ukraine U19",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk35706.png?w=18&h=18&f=sd",
+        "away_team": "Italy U19",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk29545.png?w=18&h=18&f=sd",
+        "score": "1-0",
+        "time_minutes": "34",
+        "stream_url": "https://en12.sportplus.live/football/58827/8032607/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Serbia U19",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk35705.png?w=18&h=18&f=sd",
+        "away_team": "Croatia U19",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk29546.png?w=18&h=18&f=sd",
+        "score": "0-1",
+        "time_minutes": "34",
+        "stream_url": "https://en12.sportplus.live/football/58827/8032608/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Belshina Bobruisk",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk21531.png?w=18&h=18&f=sd",
+        "away_team": "Baranovichi",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk971027.png?w=18&h=18&f=sd",
+        "score": "1-0",
+        "time_minutes": "35",
+        "stream_url": "https://en12.sportplus.live/football/premier-league-belarus/8022016/"
+    },
+    {
+        "sport": "tennis",
+        "home_team": "Momoko Kobori",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk35066.png?w=18&h=18&f=sd",
+        "away_team": "Mary Lewis",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk996177.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "S1",
+        "stream_url": "https://en12.sportplus.live/tennis/2876971/8035645/"
+    },
+    {
+        "sport": "tennis",
+        "home_team": "Fermin Tenti",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk30927.png?w=18&h=18&f=sd",
+        "away_team": "Peter Bertran",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk10262.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "S1",
+        "stream_url": "https://en12.sportplus.live/tennis/73955/8035518/"
+    },
+    {
+        "sport": "tennis",
+        "home_team": "Salvador Price",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1096827.png?w=18&h=18&f=sd",
+        "away_team": "Joao Victor Couto Loureiro",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk982303.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "S1",
+        "stream_url": "https://en12.sportplus.live/tennis/73955/8035522/"
+    },
+    {
+        "sport": "tennis",
+        "home_team": "Raphael Perot",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk112227.png?w=18&h=18&f=sd",
+        "away_team": "Jannik Opitz",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk58671.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "S1",
+        "stream_url": "https://en12.sportplus.live/tennis/831621/8035264/"
+    },
+    {
+        "sport": "basketball",
+        "home_team": "Luxembourg",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk35227.png?w=18&h=18&f=sd",
+        "away_team": "Republic of North Macedonia",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk27000.png?w=18&h=18&f=sd",
+        "score": "55-65",
+        "time_minutes": "Q4 7",
+        "stream_url": "https://en12.sportplus.live/basketball/eurobasket/8031148/"
+    },
+    {
+        "sport": "basketball",
+        "home_team": "Cape Verde",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk144819.png?w=18&h=18&f=sd",
+        "away_team": "Libya",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1034377.png?w=18&h=18&f=sd",
+        "score": "85-58",
+        "time_minutes": "Q4 35",
+        "stream_url": "https://en12.sportplus.live/basketball/2935292/8035853/"
+    },
+    {
+        "sport": "basketball",
+        "home_team": "Egypt",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk23467.png?w=18&h=18&f=sd",
+        "away_team": "Uganda",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk64772.png?w=18&h=18&f=sd",
+        "score": "28-32",
+        "time_minutes": "Q2 20",
+        "stream_url": "https://en12.sportplus.live/basketball/2935292/8035892/"
+    },
+    {
+        "sport": "basketball",
+        "home_team": "Ivory Coast",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk22003.png?w=18&h=18&f=sd",
+        "away_team": "Madagascar",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk145273.png?w=18&h=18&f=sd",
+        "score": "46-41",
+        "time_minutes": "Q2 16",
+        "stream_url": "https://en12.sportplus.live/basketball/2935292/8036061/"
+    },
+    {
+        "sport": "basketball",
+        "home_team": "Saudi Arabia",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk34724.png?w=18&h=18&f=sd",
+        "away_team": "Qatar",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk32129.png?w=18&h=18&f=sd",
+        "score": "29-28",
+        "time_minutes": "Q2 18",
+        "stream_url": "https://en12.sportplus.live/basketball/2935293/8033429/"
+    },
+    {
+        "sport": "basketball",
+        "home_team": "India",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk24010.png?w=18&h=18&f=sd",
+        "away_team": "Lebanon",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk41440.png?w=18&h=18&f=sd",
+        "score": "29-41",
+        "time_minutes": "Q2 18",
+        "stream_url": "https://en12.sportplus.live/basketball/2935293/8033431/"
+    },
+    {
+        "sport": "basketball",
+        "home_team": "Great Britain",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk29997.png?w=18&h=18&f=sd",
+        "away_team": "Iceland",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk29969.png?w=18&h=18&f=sd",
+        "score": "78-74",
+        "time_minutes": "Q4 35",
+        "stream_url": "https://en12.sportplus.live/basketball/2935291/8029025/"
+    },
+    {
+        "sport": "basketball",
+        "home_team": "Georgia",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk27001.png?w=18&h=18&f=sd",
+        "away_team": "Spain",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk17162.png?w=18&h=18&f=sd",
+        "score": "3-11",
+        "time_minutes": "Q1 4",
+        "stream_url": "https://en12.sportplus.live/basketball/2935291/8029021/"
+    },
+    {
+        "sport": "basketball",
+        "home_team": "Serbia 3x3 U21",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1408470.png?w=18&h=18&f=sd",
+        "away_team": "Spain 3x3 U21",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1157331.png?w=18&h=18&f=sd",
+        "score": "9-14",
+        "time_minutes": "9",
+        "stream_url": "https://en12.sportplus.live/basketball/2712050/8036977/"
+    },
+    {
+        "sport": "basketball",
+        "home_team": "Spain U20 (Women)",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1417043.png?w=18&h=18&f=sd",
+        "away_team": "Lithuania U20 (Women)",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk56112.png?w=18&h=18&f=sd",
+        "score": "29-36",
+        "time_minutes": "Q2 16",
+        "stream_url": "https://en12.sportplus.live/basketball/88693/8036166/"
+    },
+    {
+        "sport": "volleyball",
+        "home_team": "Chema Juja",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1376218.png?w=18&h=18&f=sd",
+        "away_team": "Kenya Prisons",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk81673.png?w=18&h=18&f=sd",
+        "score": "2-1",
+        "time_minutes": "S4",
+        "stream_url": "https://en12.sportplus.live/volleyball/2037447/8036409/"
+    }
+]        .container {
             max-width: 480px; /* العرض المثالي لشاشات الهواتف المحمولة */
             margin: 0 auto;
         }
