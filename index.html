@@ -3,230 +3,379 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>بث المباريات المباشر - جيت هاب</title>
+    <title>beIN CONNECT - المباريات المباشرة</title>
     <style>
+        /* نظام الألوان الخاص بهوية beIN SPORTS المميزة */
         :root {
-            --bg-color: #0b0b12;
-            --card-bg: #13131f;
-            --border-color: #1c1c2e;
-            --accent-color: #df007a;
-            --text-color: #ffffff;
-            --time-color: #ff9800;
-            --btn-color: #00bcd4;
+            --bein-purple: #4c1255;
+            --bein-purple-dark: #2c0533;
+            --bein-accent: #ff007f;
+            --bg-main: #0c0810;
+            --bg-card: #18121e;
+            --bg-card-hover: #211929;
+            --text-primary: #ffffff;
+            --text-secondary: #b0a5b7;
+            --live-red: #ff0033;
+            --border-line: #291d30;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
         }
 
         body {
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            font-family: system-ui, -apple-system, sans-serif;
-            margin: 0;
-            padding: 15px;
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            padding: 8px;
+            min-height: 100vh;
+            -webkit-tap-highlight-color: transparent;
         }
 
         .container {
-            max-width: 600px;
+            max-width: 480px; /* العرض المثالي لشاشات الهواتف المحمولة */
             margin: 0 auto;
         }
 
-        .header-area {
+        /* رأس الصفحة بتصميم التطبيقات الذكية */
+        .header {
             text-align: center;
-            border-bottom: 2px solid var(--accent-color);
-            padding-bottom: 15px;
-            margin-bottom: 20px;
+            margin-bottom: 12px;
+            padding: 12px;
+            background: linear-gradient(135deg, var(--bein-purple), var(--bein-purple-dark));
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+            border: 1px solid rgba(255, 255, 255, 0.05);
         }
 
-        h2 {
-            color: var(--time-color);
-            margin: 0 0 10px 0;
-            font-size: 1.4rem;
+        .header h1 {
+            font-size: 1.3rem;
+            font-weight: 900;
+            color: var(--text-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .header h1 span {
+            background: var(--bein-accent);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 800;
+        }
+
+        .refresh-bar {
+            margin-top: 10px;
         }
 
         .btn-refresh {
-            background: #1c1c2e;
-            color: #00bcd4;
-            border: 1px solid #00bcd4;
-            padding: 5px 15px;
+            background: rgba(255, 255, 255, 0.08);
+            color: var(--text-primary);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            padding: 8px;
             border-radius: 20px;
-            cursor: pointer;
             font-weight: bold;
-            font-size: 0.85rem;
-            transition: 0.2s;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: background 0.2s;
+            width: 100%; /* ممتد لسهولة الضغط بالإصبع */
         }
 
-        .btn-refresh:hover {
-            background: #00bcd4;
-            color: #fff;
+        .btn-refresh:active {
+            background: var(--bein-accent);
+            border-color: var(--bein-accent);
         }
 
-        .status-message {
+        /* شبكة عرض كروت المباريات */
+        .matches-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .status-msg {
             text-align: center;
-            color: #888;
-            font-size: 0.9rem;
-            margin-top: 30px;
+            color: var(--text-secondary);
+            padding: 40px 10px;
+            font-size: 0.85rem;
         }
 
+        /* كارد المباراة المضغوط لملائمة شاشة الموبايل */
         .match-card {
-            background: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-right: 4px solid var(--accent-color);
-            border-radius: 8px;
-            padding: 15px;
-            margin-bottom: 12px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-            animation: fadeIn 0.3s ease-in-out;
+            background: var(--bg-card);
+            border: 1px solid var(--border-line);
+            border-radius: 12px;
+            padding: 12px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         }
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(5px); }
-            to { opacity: 1; transform: translateY(0); }
+        /* الشريط العلوي للكارد (نوع الرياضة + شارة المباشر) */
+        .match-top-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 8px;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.02);
+            margin-bottom: 8px;
         }
 
         .sport-badge {
-            display: inline-block;
+            color: var(--text-secondary);
             font-size: 0.75rem;
-            background: rgba(0, 188, 212, 0.15);
-            color: var(--btn-color);
-            padding: 2px 8px;
-            border-radius: 4px;
-            margin-bottom: 8px;
-            text-transform: uppercase;
             font-weight: bold;
-        }
-
-        .teams-container {
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            font-weight: bold;
-            font-size: 1.05rem;
-            margin-bottom: 12px;
+            gap: 4px;
         }
 
-        .team {
-            width: 40%;
-        }
-
-        .team.home { text-align: right; }
-        .team.away { text-align: left; }
-
-        .score-badge {
-            color: var(--text-color);
-            background: var(--border-color);
-            padding: 4px 14px;
-            border-radius: 4px;
+        /* شارة الوقت والـ LIVE الوامضة */
+        .time-badge {
+            background: var(--live-red);
+            color: white;
+            font-size: 0.7rem;
             font-weight: 800;
-            min-width: 60px;
-            text-align: center;
-            font-size: 1.2rem;
-            border: 1px solid #31314d;
-        }
-
-        .card-footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            font-size: 0.85rem;
-            margin-top: 10px;
-            border-top: 1px solid var(--border-color);
-            padding-top: 10px;
-        }
-
-        .match-time {
-            color: var(--time-color);
-            font-weight: bold;
-            background: rgba(255, 152, 0, 0.1);
-            padding: 3px 8px;
+            padding: 2px 6px;
             border-radius: 4px;
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            animation: blink-live 1.5s infinite;
+        }
+
+        @keyframes blink-live {
+            0% { opacity: 1; }
+            50% { opacity: 0.6; }
+            100% { opacity: 1; }
+        }
+
+        /* القسم الرئيسي للفرق والنتيجة */
+        .match-body {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 4px 0;
+        }
+
+        .team-side {
+            width: 38%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* إطار دائرى لشعارات الفرق المباشرة */
+        .logo-wrapper {
+            width: 46px;
+            height: 46px;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            padding: 5px;
+        }
+
+        .logo-wrapper img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+
+        .team-name {
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: var(--text-primary);
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 100%;
+        }
+
+        /* النتيجة في المنتصف على طابع beIN */
+        .score-center {
+            width: 24%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .score-display {
+            background: var(--bein-purple);
+            color: #ffffff;
+            font-size: 1.15rem;
+            font-weight: 900;
+            padding: 4px 10px;
+            border-radius: 6px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            letter-spacing: 1px;
+            text-align: center;
+        }
+
+        .live-status-text {
+            font-size: 0.65rem;
+            color: var(--bein-accent);
+            margin-top: 5px;
+            font-weight: bold;
+        }
+
+        /* زر مشاهدة البث المباشر الممتد لسهولة الضغط */
+        .btn-action-wrapper {
+            margin-top: 10px;
         }
 
         .btn-stream {
-            background: var(--btn-color);
-            color: #fff;
-            padding: 6px 14px;
-            text-decoration: none;
-            border-radius: 4px;
+            background: linear-gradient(135deg, var(--bein-purple), #5e1869);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 8px;
+            border-radius: 8px;
+            font-size: 0.8rem;
             font-weight: bold;
-            transition: background 0.2s;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            transition: all 0.2s;
         }
 
-        .btn-stream:hover {
-            background: #0097a7;
+        .btn-stream:active {
+            background: var(--bein-accent);
+            border-color: var(--bein-accent);
+        }
+
+        .pulse {
+            animation: pulse-animation 1.5s infinite;
+        }
+        @keyframes pulse-animation {
+            0% { opacity: 0.6; }
+            50% { opacity: 1; }
+            100% { opacity: 0.6; }
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <div class="header-area">
-            <h2>⚽ جدول المباريات والبث المباشر (GitHub)</h2>
-            <button class="btn-refresh" onclick="fetchMatchesData()">🔄 تحديث فوري للبيانات</button>
+        <!-- واجهة الهيدر العلوية -->
+        <div class="header">
+            <h1>beIN SPORTS <span>CONNECT</span></h1>
+            <div class="refresh-bar">
+                <button class="btn-refresh" onclick="loadLiveMatches()">🔄 تحديث دقيقة بدقيقة</button>
+            </div>
         </div>
         
-        <div id="matches-list">
-            <div class="status-message">⏳ جاري جلب المباريات الحية من جيت هاب...</div>
+        <!-- الحاوية الأساسية للكروت المحدثة -->
+        <div id="matches-container" class="matches-grid">
+            <div class="status-msg pulse">⏳ جاري الاتصال بخوادم beIN وجلب المباريات الحية...</div>
         </div>
     </div>
 
     <script>
-        // رابط الجيت هاب الخام الخاص بك والذي يستخرج إليه السكربت
-        const githubJsonUrl = "https://raw.githubusercontent.com/rnrnrnbfbrnrnr-commits/Bfbdkkf/refs/heads/main/matches.json";
+        // رابط مستودع GitHub الحقيقي الخاص بك لقراءة ملف الـ JSON مباشرة
+        const jsonDataSource = "https://raw.githubusercontent.com/rnrnrnbfbrnrnr-commits/Fnkfkfkfk/refs/heads/main/Matches.json";
 
-        // دالة جلب وقراءة الـ JSON
-        async function fetchMatchesData() {
-            const listContainer = document.getElementById('matches-list');
+        async function loadLiveMatches() {
+            const container = document.getElementById('matches-container');
             
             try {
-                // إضافة كلمة عشوائية بنهاية الرابط (Cache Buster) لمنع المتصفح من كاش الرابط القديم وقراءة البيانات القديمة
-                const response = await fetch(`${githubJsonUrl}?t=${new Date().getTime()}`);
+                // تكتيك كسر كاش المتصفح لضمان تحميل الدقائق والأهداف فوراً على الهاتف
+                const finalUrl = `${jsonDataSource}?nocache=${new Date().getTime()}`;
+                const response = await fetch(finalUrl);
                 
-                if (!response.ok) {
-                    throw new Error("فشل في الوصول لملف جيت هاب");
-                }
+                if (!response.ok) throw new Error("Fetch failed");
                 
                 const matches = await response.json();
                 
                 if (!matches || matches.length === 0) {
-                    listContainer.innerHTML = '<div class="status-message">📭 لا توجد مباريات جارية حالياً في الملف.</div>';
+                    container.innerHTML = '<div class="status-msg">📭 لا توجد مباريات جارية ومباشرة في هذا الوقت.</div>';
                     return;
                 }
 
-                let html = '';
-                matches.forEach(m => {
-                    const displayScore = m.score ? m.score.replace('-', ' - ') : "0 - 0";
-                    // أيقونة ديناميكية حسب نوع الرياضة المكتوبة بالـ JSON
-                    const sportIcon = m.sport === "volleyball" ? "🏐" : "⚽";
-                    const sportText = m.sport === "volleyball" ? "كرة طائرة" : "كرة قدم";
+                let cardsHtml = '';
+                
+                matches.forEach(match => {
+                    // فرز وتنسيق الـ Score ليكون مناسب للـ RTL
+                    const formattedScore = match.score ? match.score.replace('-', ' - ') : "0 - 0";
+                    
+                    // تحديد الأيقونة والاسم للرياضة
+                    let sportIcon = "⚽";
+                    let sportName = "كرة القدم";
+                    if (match.sport !== "football") {
+                        sportIcon = "🏀"; 
+                        sportName = "رياضة أخرى";
+                    }
 
-                    html += `
+                    // معالجة وإظهار شعارات الفرق بدقة
+                    const homeLogoUrl = match.home_logo ? match.home_logo : "https://placehold.co/50x60/18121e/ffffff?text=HOME";
+                    const awayLogoUrl = match.away_logo ? match.away_logo : "https://placehold.co/50x60/18121e/ffffff?text=AWAY";
+
+                    // التعامل مع صيغة وقت المباراة الحية (أرقام أو نصوص مثل H1)
+                    let displayTime = match.time_minutes ? match.time_minutes.toString().trim() : "0";
+                    if (!isNaN(displayTime)) {
+                        displayTime = displayTime + "'"; // إضافة علامة الدقيقة للأرقام فقط
+                    }
+
+                    cardsHtml += `
                         <div class="match-card">
-                            <span class="sport-badge">${sportIcon} ${sportText}</span>
-                            <div class="teams-container">
-                                <span class="team home">${m.home_team}</span>
-                                <span class="score-badge">${displayScore}</span>
-                                <span class="team away">${m.away_team}</span>
+                            <div class="match-top-info">
+                                <span class="sport-badge">${sportIcon} ${sportName}</span>
+                                <span class="time-badge">LIVE • ${displayTime}</span>
                             </div>
-                            <div class="card-footer">
-                                <span class="match-time">⏱️ الدقيقة: ${m.time_minutes}'</span>
-                                <a href="${m.stream_url}" target="_blank" class="btn-stream">مشاهدة البث 🔗</a>
+                            <div class="match-body">
+                                <!-- طرف الفريق المستضيف -->
+                                <div class="team-side">
+                                    <div class="logo-wrapper">
+                                        <img src="${homeLogoUrl}" alt="${match.home_team}" onerror="this.src='https://placehold.co/50x50/18121e/ffffff?text=VS'">
+                                    </div>
+                                    <div class="team-name">${match.home_team}</div>
+                                </div>
+                                
+                                <!-- النتيجة المركزية الحية -->
+                                <div class="score-center">
+                                    <div class="score-display">${formattedScore}</div>
+                                    <span class="live-status-text">شاهد الآن</span>
+                                </div>
+                                
+                                <!-- طرف الفريق الضيف -->
+                                <div class="team-side">
+                                    <div class="logo-wrapper">
+                                        <img src="${awayLogoUrl}" alt="${match.away_team}" onerror="this.src='https://placehold.co/50x50/18121e/ffffff?text=VS'">
+                                    </div>
+                                    <div class="team-name">${match.away_team}</div>
+                                </div>
+                            </div>
+                            <!-- زر التوجيه للبث المباشر -->
+                            <div class="btn-action-wrapper">
+                                <a href="${match.stream_url}" target="_blank" class="btn-stream">مشاهدة البث المباشر beIN SPORTS ⚡</a>
                             </div>
                         </div>
                     `;
                 });
 
-                listContainer.innerHTML = html;
+                container.innerHTML = cardsHtml;
 
-            } catch (error) {
-                console.error("خطأ جلب البيانات:", error);
-                listContainer.innerHTML = `<div class="status-message" style="color:#df007a;">❌ خطأ في تحميل البيانات من جيت هاب أو الملف غير موجود بعد!</div>`;
+            } catch (err) {
+                console.error(err);
+                container.innerHTML = '<div class="status-msg" style="color:var(--bein-accent);">❌ فشل تحديث البيانات الحية، يرجى سحب الصفحة أو الضغط على زر التحديث.</div>';
             }
         }
 
-        // تشغيل الجلب التلقائي فور فتح الصفحة
+        // إطلاق الواجهة والإنصات للتحديث كل 30 ثانية لتحديث الدقائق والأهداف فورياً
         document.addEventListener('DOMContentLoaded', () => {
-            fetchMatchesData();
-            
-            // تحديث ذكي وتلقائي للجدول كل 60 ثانية بالخلفية لملائمة أهداف المباشر والدقائق
-            setInterval(fetchMatchesData, 60000);
+            loadLiveMatches();
+            setInterval(loadLiveMatches, 30000);
         });
     </script>
 </body>
