@@ -1,163 +1,33 @@
 [
     {
-        "sport": "football",
-        "home_team": "Pacific",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk64286.png?w=18&h=18&f=sd",
-        "away_team": "HFX Wanderers",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk124758.png?w=18&h=18&f=sd",
-        "score": "0-1",
-        "time_minutes": "37",
-        "stream_url": "https://en12.sportplus.live/football/canada-csl/8023261/"
-    },
-    {
-        "sport": "football",
-        "home_team": "Union Espanola",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk20906.png?w=18&h=18&f=sd",
-        "away_team": "O'Higgins",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk20896.png?w=18&h=18&f=sd",
-        "score": "1-2",
-        "time_minutes": "73",
-        "stream_url": "https://en12.sportplus.live/football/copa-chile/8030702/"
-    },
-    {
-        "sport": "football",
-        "home_team": "Delfin",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk23121.png?w=18&h=18&f=sd",
-        "away_team": "Emelec",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk5742.png?w=18&h=18&f=sd",
-        "score": "1-0",
-        "time_minutes": "52",
-        "stream_url": "https://en12.sportplus.live/football/ecuador-serie-a/8026800/"
-    },
-    {
-        "sport": "football",
-        "home_team": "Cincinnati II",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1046827.png?w=18&h=18&f=sd",
-        "away_team": "New York Red Bulls II",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk22707.png?w=18&h=18&f=sd",
-        "score": "0-2",
-        "time_minutes": "50",
-        "stream_url": "https://en12.sportplus.live/football/2373449/8032769/"
-    },
-    {
-        "sport": "football",
-        "home_team": "Connecticut United FC",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1397435.png?w=18&h=18&f=sd",
-        "away_team": "Carolina Core",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1228192.png?w=18&h=18&f=sd",
-        "score": "1-1",
-        "time_minutes": "50",
-        "stream_url": "https://en12.sportplus.live/football/2373449/8032770/"
-    },
-    {
-        "sport": "football",
-        "home_team": "Crown Legacy",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1139220.png?w=18&h=18&f=sd",
-        "away_team": "Orlando City II",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk17190.png?w=18&h=18&f=sd",
-        "score": "0-0",
-        "time_minutes": "H1",
-        "stream_url": "https://en12.sportplus.live/football/2373449/8032758/"
-    },
-    {
-        "sport": "football",
-        "home_team": "Miami",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk24007.png?w=18&h=18&f=sd",
-        "away_team": "Birmingham Legion",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk118529.png?w=18&h=18&f=sd",
-        "score": "0-0",
-        "time_minutes": "H1",
-        "stream_url": "https://en12.sportplus.live/football/57723/8026045/"
-    },
-    {
-        "sport": "football",
-        "home_team": "Chicago Stars (Women)",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1326927.png?w=18&h=18&f=sd",
-        "away_team": "Utah Royals (Women)",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk81058.png?w=18&h=18&f=sd",
-        "score": "3-2",
-        "time_minutes": "95",
-        "stream_url": "https://en12.sportplus.live/football/190409/8023197/"
-    },
-    {
-        "sport": "football",
-        "home_team": "Portland Thorns (Women)",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk972583.png?w=18&h=18&f=sd",
-        "away_team": "Racing Louisville (Women)",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk972584.png?w=18&h=18&f=sd",
-        "score": "0-0",
-        "time_minutes": "H1",
-        "stream_url": "https://en12.sportplus.live/football/190409/8023312/"
-    },
-    {
-        "sport": "football",
-        "home_team": "Westchester SC",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1314826.png?w=18&h=18&f=sd",
-        "away_team": "Athletic Boise",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1398679.png?w=18&h=18&f=sd",
-        "score": "0-0",
-        "time_minutes": "H1",
-        "stream_url": "https://en12.sportplus.live/football/1898445/8033475/"
-    },
-    {
         "sport": "tennis",
-        "home_team": "Quinn Vandecasteele",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk127804.png?w=18&h=18&f=sd",
-        "away_team": "James Kent Trotter",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk997842.png?w=18&h=18&f=sd",
-        "score": "0-1",
-        "time_minutes": "S2",
-        "stream_url": "https://en12.sportplus.live/tennis/2876981/8037071/"
-    },
-    {
-        "sport": "tennis",
-        "home_team": "Niels Peter Van Noord",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk65316.png?w=18&h=18&f=sd",
-        "away_team": "Jakob Gaudreau Barnes",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1419785.png?w=18&h=18&f=sd",
+        "home_team": "Watt/Reynolds",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1180246.png?w=18&h=18&f=sd",
+        "away_team": "Nam/Niklas-Salminen",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1236005.png?w=18&h=18&f=sd",
         "score": "1-0",
         "time_minutes": "S2",
-        "stream_url": "https://en12.sportplus.live/tennis/2571419/8036267/"
+        "stream_url": "https://en12.sportplus.live/tennis/1072063/8035947/"
     },
     {
         "sport": "tennis",
-        "home_team": "Xavier Massotte",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1287881.png?w=18&h=18&f=sd",
-        "away_team": "Aurel Ciocanu",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1052612.png?w=18&h=18&f=sd",
+        "home_team": "Savannah Broadus",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk92741.png?w=18&h=18&f=sd",
+        "away_team": "Lucrezia Stefanini",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk30802.png?w=18&h=18&f=sd",
         "score": "0-1",
         "time_minutes": "S2",
-        "stream_url": "https://en12.sportplus.live/tennis/2571419/8036180/"
+        "stream_url": "https://en12.sportplus.live/tennis/2743067/8035747/"
     },
     {
         "sport": "tennis",
-        "home_team": "Nozdracheva/Pilevina",
-        "home_logo": "",
-        "away_team": "Kosova/Turutina",
-        "away_logo": "",
+        "home_team": "Kuwata/Raina",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1419084.png?w=18&h=18&f=sd",
+        "away_team": "Harrison/Hewitt",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1392538.png?w=18&h=18&f=sd",
         "score": "0-1",
         "time_minutes": "S2",
-        "stream_url": "https://en12.sportplus.live/tennis/2945783/8037873/"
-    },
-    {
-        "sport": "basketball",
-        "home_team": "Golden State Warriors Blue",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1419636.png?w=18&h=18&f=sd",
-        "away_team": "Sacramento Kings",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk4368.png?w=18&h=18&f=sd",
-        "score": "84-88",
-        "time_minutes": "Q4 1",
-        "stream_url": "https://en12.sportplus.live/basketball/nba-summer-league/8035419/"
-    },
-    {
-        "sport": "basketball",
-        "home_team": "San Antonio Spurs",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk4373.png?w=18&h=18&f=sd",
-        "away_team": "Golden State Warriors Gold",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1419326.png?w=18&h=18&f=sd",
-        "score": "0-0",
-        "time_minutes": "Q1 10",
-        "stream_url": "https://en12.sportplus.live/basketball/nba-summer-league/8035420/"
+        "stream_url": "https://en12.sportplus.live/tennis/2743166/8035964/"
     },
     {
         "sport": "basketball",
@@ -165,38 +35,178 @@
         "home_logo": "https://cdn.ovbstdn.com/onexbet/pk34476.png?w=18&h=18&f=sd",
         "away_team": "Las Vegas Aces (Women)",
         "away_logo": "https://cdn.ovbstdn.com/onexbet/pk85376.png?w=18&h=18&f=sd",
-        "score": "0-0",
-        "time_minutes": "Q1 10",
+        "score": "84-68",
+        "time_minutes": "Q4 1",
         "stream_url": "https://en12.sportplus.live/basketball/wnba/8023317/"
     },
     {
         "sport": "basketball",
-        "home_team": "Uruguay",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk60709.png?w=18&h=18&f=sd",
-        "away_team": "Cuba",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk72590.png?w=18&h=18&f=sd",
-        "score": "85-58",
-        "time_minutes": "Q4 33",
-        "stream_url": "https://en12.sportplus.live/basketball/2935302/8035335/"
+        "home_team": "Panama",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk63609.png?w=18&h=18&f=sd",
+        "away_team": "Argentina",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk17164.png?w=18&h=18&f=sd",
+        "score": "40-54",
+        "time_minutes": "Q3 22",
+        "stream_url": "https://en12.sportplus.live/basketball/2935302/8033266/"
     },
     {
         "sport": "basketball",
-        "home_team": "Santa Tecla Juniors U21",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1342714.png?w=18&h=18&f=sd",
-        "away_team": "Leones Atlas U21",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1414050.png?w=18&h=18&f=sd",
-        "score": "25-16",
-        "time_minutes": "Q3 6",
-        "stream_url": "https://en12.sportplus.live/basketball/1677789/8033796/"
+        "home_team": "Atletico Temperley Rosario",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1417639.png?w=18&h=18&f=sd",
+        "away_team": "Social y Deportivo Presidente Derqui",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk974353.png?w=18&h=18&f=sd",
+        "score": "54-64",
+        "time_minutes": "Q4 32",
+        "stream_url": "https://en12.sportplus.live/basketball/2355576/8035973/"
+    },
+    {
+        "sport": "basketball",
+        "home_team": "Belgrano de San Nicolas",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk48651.png?w=18&h=18&f=sd",
+        "away_team": "Pacifico de Neuquen",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk104270.png?w=18&h=18&f=sd",
+        "score": "67-60",
+        "time_minutes": "Q4 39",
+        "stream_url": "https://en12.sportplus.live/basketball/2355576/8035974/"
+    },
+    {
+        "sport": "basketball",
+        "home_team": "Almagro de Esperanza",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1123282.png?w=18&h=18&f=sd",
+        "away_team": "Club Sportivo Escobar",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk41458.png?w=18&h=18&f=sd",
+        "score": "88-70",
+        "time_minutes": "Q4 40",
+        "stream_url": "https://en12.sportplus.live/basketball/2355576/8035975/"
+    },
+    {
+        "sport": "basketball",
+        "home_team": "Tres de Febrero",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1164538.png?w=18&h=18&f=sd",
+        "away_team": "Olimpia Venado Tuerto",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1127170.png?w=18&h=18&f=sd",
+        "score": "58-59",
+        "time_minutes": "Q4 38",
+        "stream_url": "https://en12.sportplus.live/basketball/2355576/8036210/"
+    },
+    {
+        "sport": "tennis",
+        "home_team": "Timo Legout",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk140357.png?w=18&h=18&f=sd",
+        "away_team": "Braden Shick",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk993315.png?w=18&h=18&f=sd",
+        "score": "1-0",
+        "time_minutes": "S2",
+        "stream_url": "https://en12.sportplus.live/tennis/1071753/8035550/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Anápolis",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk23686.png?w=18&h=18&f=sd",
+        "away_team": "Botafogo da Paraíba",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk17233.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "48",
+        "stream_url": "https://en12.sportplus.live/football/1793101/8028303/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Portland Thorns (Women)",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk972583.png?w=18&h=18&f=sd",
+        "away_team": "Racing Louisville (Women)",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk972584.png?w=18&h=18&f=sd",
+        "score": "4-0",
+        "time_minutes": "93",
+        "stream_url": "https://en12.sportplus.live/football/190409/8023312/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Clube Nautico Capibaribe",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk17525.png?w=18&h=18&f=sd",
+        "away_team": "Esporte Clube Juventude",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1367066.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "75",
+        "stream_url": "https://en12.sportplus.live/football/brazil-serie-b/8023260/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Austin II",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1137979.png?w=18&h=18&f=sd",
+        "away_team": "Colorado Rapids II",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1046960.png?w=18&h=18&f=sd",
+        "score": "1-0",
+        "time_minutes": "33",
+        "stream_url": "https://en12.sportplus.live/football/2373449/8032760/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Los Angeles II",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1137969.png?w=18&h=18&f=sd",
+        "away_team": "Real Monarchs",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk24978.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "3",
+        "stream_url": "https://en12.sportplus.live/football/2373449/8032763/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Huntsville City",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1140410.png?w=18&h=18&f=sd",
+        "away_team": "Chicago Fire II",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1045876.png?w=18&h=18&f=sd",
+        "score": "1-1",
+        "time_minutes": "Pause",
+        "stream_url": "https://en12.sportplus.live/football/2373449/8032762/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Crown Legacy",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1139220.png?w=18&h=18&f=sd",
+        "away_team": "Orlando City II",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk17190.png?w=18&h=18&f=sd",
+        "score": "1-1",
+        "time_minutes": "71",
+        "stream_url": "https://en12.sportplus.live/football/2373449/8032758/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Deportes Limache",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk24258.png?w=18&h=18&f=sd",
+        "away_team": "San Marcos de Arica",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk23701.png?w=18&h=18&f=sd",
+        "score": "1-1",
+        "time_minutes": "Pause",
+        "stream_url": "https://en12.sportplus.live/football/copa-chile/8036144/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Mexico",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk17798.png?w=18&h=18&f=sd",
+        "away_team": "England",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk18032.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "7",
+        "stream_url": "https://en12.sportplus.live/football/wc2026/8025566/"
+    },
+    {
+        "sport": "basketball",
+        "home_team": "Quezaltepeque U21",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1122262.png?w=18&h=18&f=sd",
+        "away_team": "Seven U21",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1389367.png?w=18&h=18&f=sd",
+        "score": "56-36",
+        "time_minutes": "Q4 6",
+        "stream_url": "https://en12.sportplus.live/basketball/1677789/8036300/"
     },
     {
         "sport": "volleyball",
-        "home_team": "Juan Ferreira (Women)",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk67104.png?w=18&h=18&f=sd",
-        "away_team": "Banco Republica (Women)",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk89991.png?w=18&h=18&f=sd",
-        "score": "1-1",
-        "time_minutes": "S3",
-        "stream_url": "https://en12.sportplus.live/volleyball/1298733/8036573/"
+        "home_team": "Defensores de Banfield",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk196294.png?w=18&h=18&f=sd",
+        "away_team": "Municipio Lomaz de Zamora",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk998341.png?w=18&h=18&f=sd",
+        "score": "0-1",
+        "time_minutes": "S2",
+        "stream_url": "https://en12.sportplus.live/volleyball/1517193/8034617/"
     }
 ]
