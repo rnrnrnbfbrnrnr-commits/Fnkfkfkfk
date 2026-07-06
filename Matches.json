@@ -6,68 +6,8 @@
         "away_team": "Alto Zambeze",
         "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1326879.png?w=18&h=18&f=sd",
         "score": "1-0",
-        "time_minutes": "64",
+        "time_minutes": "68",
         "stream_url": "https://en12.sportplus.live/football/2738669/8038695/"
-    },
-    {
-        "sport": "football",
-        "home_team": "ISPE (Women)",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk110649.png?w=18&h=18&f=sd",
-        "away_team": "Yangon United (Women)",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1157525.png?w=18&h=18&f=sd",
-        "score": "2-0",
-        "time_minutes": "60",
-        "stream_url": "https://en12.sportplus.live/football/1842772/8038766/"
-    },
-    {
-        "sport": "football",
-        "home_team": "Ryazan II",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1328584.png?w=18&h=18&f=sd",
-        "away_team": "Fakel Voronezh II",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk168795.png?w=18&h=18&f=sd",
-        "score": "0-0",
-        "time_minutes": "20",
-        "stream_url": "https://en12.sportplus.live/football/1922975/8038829/"
-    },
-    {
-        "sport": "football",
-        "home_team": "Qingdao Hainiu U20",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1405857.png?w=18&h=18&f=sd",
-        "away_team": "Nantong Zhiyun U20",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1407206.png?w=18&h=18&f=sd",
-        "score": "2-1",
-        "time_minutes": "89",
-        "stream_url": "https://en12.sportplus.live/football/2924494/8035260/"
-    },
-    {
-        "sport": "football",
-        "home_team": "Lanzhou Longyuan Athletic U20",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1405851.png?w=18&h=18&f=sd",
-        "away_team": "Qingdao Red Lions U20",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1405860.png?w=18&h=18&f=sd",
-        "score": "1-3",
-        "time_minutes": "86",
-        "stream_url": "https://en12.sportplus.live/football/2924494/8035274/"
-    },
-    {
-        "sport": "football",
-        "home_team": "Yunnan Yukun U20",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1406686.png?w=18&h=18&f=sd",
-        "away_team": "Liaoning Tieren U20",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1406079.png?w=18&h=18&f=sd",
-        "score": "0-2",
-        "time_minutes": "90",
-        "stream_url": "https://en12.sportplus.live/football/2924494/8035275/"
-    },
-    {
-        "sport": "football",
-        "home_team": "Qingdao West Coast U20",
-        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1406073.png?w=18&h=18&f=sd",
-        "away_team": "Wuhan Three Towns U20",
-        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1405850.png?w=18&h=18&f=sd",
-        "score": "0-1",
-        "time_minutes": "90",
-        "stream_url": "https://en12.sportplus.live/football/2924494/8035276/"
     },
     {
         "sport": "football",
