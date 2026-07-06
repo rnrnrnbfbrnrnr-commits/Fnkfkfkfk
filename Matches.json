@@ -6,6 +6,470 @@
         "away_team": "Alto Zambeze",
         "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1326879.png?w=18&h=18&f=sd",
         "score": "1-0",
+        "time_minutes": "64",
+        "stream_url": "https://en12.sportplus.live/football/2738669/8038695/"
+    },
+    {
+        "sport": "football",
+        "home_team": "ISPE (Women)",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk110649.png?w=18&h=18&f=sd",
+        "away_team": "Yangon United (Women)",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1157525.png?w=18&h=18&f=sd",
+        "score": "2-0",
+        "time_minutes": "60",
+        "stream_url": "https://en12.sportplus.live/football/1842772/8038766/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Ryazan II",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1328584.png?w=18&h=18&f=sd",
+        "away_team": "Fakel Voronezh II",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk168795.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "20",
+        "stream_url": "https://en12.sportplus.live/football/1922975/8038829/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Qingdao Hainiu U20",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1405857.png?w=18&h=18&f=sd",
+        "away_team": "Nantong Zhiyun U20",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1407206.png?w=18&h=18&f=sd",
+        "score": "2-1",
+        "time_minutes": "89",
+        "stream_url": "https://en12.sportplus.live/football/2924494/8035260/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Lanzhou Longyuan Athletic U20",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1405851.png?w=18&h=18&f=sd",
+        "away_team": "Qingdao Red Lions U20",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1405860.png?w=18&h=18&f=sd",
+        "score": "1-3",
+        "time_minutes": "86",
+        "stream_url": "https://en12.sportplus.live/football/2924494/8035274/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Yunnan Yukun U20",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1406686.png?w=18&h=18&f=sd",
+        "away_team": "Liaoning Tieren U20",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1406079.png?w=18&h=18&f=sd",
+        "score": "0-2",
+        "time_minutes": "90",
+        "stream_url": "https://en12.sportplus.live/football/2924494/8035275/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Qingdao West Coast U20",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1406073.png?w=18&h=18&f=sd",
+        "away_team": "Wuhan Three Towns U20",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1405850.png?w=18&h=18&f=sd",
+        "score": "0-1",
+        "time_minutes": "90",
+        "stream_url": "https://en12.sportplus.live/football/2924494/8035276/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Portugal",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk17802.png?w=18&h=18&f=sd",
+        "away_team": "Spain",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk18052.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/wc2026/8029519/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Chelyabinsk",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk21852.png?w=18&h=18&f=sd",
+        "away_team": "Torpedo Miass",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk992477.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/club-friendly/8038663/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Akron Tolyatti",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk87894.png?w=18&h=18&f=sd",
+        "away_team": "Rotor Volgograd",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk21891.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/club-friendly/8038675/"
+    },
+    {
+        "sport": "football",
+        "home_team": "KS Cracovia",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk20379.png?w=18&h=18&f=sd",
+        "away_team": "Istanbul BFK",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk17602.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/club-friendly/8038664/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Neftchi Baku",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk26555.png?w=18&h=18&f=sd",
+        "away_team": "Partizan Belgrade",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk27653.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/club-friendly/8038831/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Sportfreunde Schwaig 1913",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1364539.png?w=18&h=18&f=sd",
+        "away_team": "Jahn Regensburg",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk2916.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/club-friendly/8038739/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Colwyn Bay",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk24983.png?w=18&h=18&f=sd",
+        "away_team": "Rhyl",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk24982.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/club-friendly/8035444/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Keflavík",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk22293.png?w=18&h=18&f=sd",
+        "away_team": "Knattspyrnufelagid Fram",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk19373.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/pepsi-deildin/8025676/"
+    },
+    {
+        "sport": "football",
+        "home_team": "USA",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk34469.png?w=18&h=18&f=sd",
+        "away_team": "Belgium",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk18063.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/wc2026/8026536/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Colo-Colo",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk20905.png?w=18&h=18&f=sd",
+        "away_team": "Deportes Recoleta",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk23088.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/copa-chile/8036916/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Club Deportes Concepcion",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk119650.png?w=18&h=18&f=sd",
+        "away_team": "Deportes Temuco",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk20910.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/copa-chile/8036088/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Universidad Catolica Quito",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk966110.png?w=18&h=18&f=sd",
+        "away_team": "Mushuc Runa",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk23113.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/ecuador-serie-a/8026646/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Orense Sporting Club",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk117980.png?w=18&h=18&f=sd",
+        "away_team": "Tecnico Universitario",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk23036.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/ecuador-serie-a/8026647/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Hacken",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk19429.png?w=18&h=18&f=sd",
+        "away_team": "Djurgardens",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk17396.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/allsvenskan/8025382/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Brommapojkarna",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk32186.png?w=18&h=18&f=sd",
+        "away_team": "GAIS",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk17408.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/allsvenskan/8025383/"
+    },
+    {
+        "sport": "football",
+        "home_team": "CA Platense (Women)",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk23600.png?w=18&h=18&f=sd",
+        "away_team": "Estudiantes de La Plata (Women)",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk54463.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/2164939/8038716/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Vila Nova",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk13589.png?w=18&h=18&f=sd",
+        "away_team": "Sao Bernardo",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk968247.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/brazil-serie-b/8026161/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Botafogo Ribeirao Preto",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk23100.png?w=18&h=18&f=sd",
+        "away_team": "Avai",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk17521.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/brazil-serie-b/8026160/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Kairat Almaty (Women)",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1326869.png?w=18&h=18&f=sd",
+        "away_team": "Zhetysu (Women)",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1328467.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/193171/8035632/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Tobol Kostanay (Women)",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1326924.png?w=18&h=18&f=sd",
+        "away_team": "Jenis (Women)",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1326925.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/193171/8038830/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Super Nova",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk84527.png?w=18&h=18&f=sd",
+        "away_team": "Ogre United",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1078631.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/optibet-virsliga/8025290/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Suduva Marijampole",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk17482.png?w=18&h=18&f=sd",
+        "away_team": "Transinvest",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1051595.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/lithuania-a-lyga/8025278/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Miramar Misiones",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk38894.png?w=18&h=18&f=sd",
+        "away_team": "Club Atletico Atenas",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk38794.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/uruguay-2nd-division/8028451/"
+    },
+    {
+        "sport": "football",
+        "home_team": "CSR Espanol",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk38212.png?w=18&h=18&f=sd",
+        "away_team": "Club Mercedes",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1063966.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/argentina-primera-c/8025542/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Club Social y Deportivo Muniz",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk35039.png?w=18&h=18&f=sd",
+        "away_team": "Deportivo Espanol",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk34454.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/argentina-primera-c/8036937/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Club Sportivo Barracas",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk34627.png?w=18&h=18&f=sd",
+        "away_team": "CSD Yupanqui",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk35038.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/argentina-primera-c/8034560/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Ivinhema",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1106442.png?w=18&h=18&f=sd",
+        "away_team": "Agremiacao Sportiva Arapiraquense",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk22689.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/842973/8037464/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Rio Barra",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1407390.png?w=18&h=18&f=sd",
+        "away_team": "Buzios",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk138059.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/1786139/8037780/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Campos AA",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk15683.png?w=18&h=18&f=sd",
+        "away_team": "Tigres Brasil",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk15687.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/1786139/8037779/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Grande Rio Brescia",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1068248.png?w=18&h=18&f=sd",
+        "away_team": "Cardoso Moreira RJ",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk97024.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/1786139/8037778/"
+    },
+    {
+        "sport": "football",
+        "home_team": "CAAC Brasil",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk137981.png?w=18&h=18&f=sd",
+        "away_team": "Uniao Central",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk985831.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/1786139/8037760/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Encarnacion",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1233740.png?w=18&h=18&f=sd",
+        "away_team": "Guairena",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk49666.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/58309/8036056/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Benjamin Aceval",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1081816.png?w=18&h=18&f=sd",
+        "away_team": "Deportivo Capiatá",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk21451.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/58309/8036057/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Black Rock",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk987875.png?w=18&h=18&f=sd",
+        "away_team": "Seacoast United Phantoms",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk53169.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/1921313/8036956/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Stars FC",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1336608.png?w=18&h=18&f=sd",
+        "away_team": "Tucson",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk52515.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/1921313/8036957/"
+    },
+    {
+        "sport": "football",
+        "home_team": "CA San Telmo U20",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk968037.png?w=18&h=18&f=sd",
+        "away_team": "Acassuso U20",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk969438.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/3027756/8036135/"
+    },
+    {
+        "sport": "football",
+        "home_team": "America RJ U20",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk130277.png?w=18&h=18&f=sd",
+        "away_team": "Bangu Atletico Clube U20",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk41343.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/2862413/8037879/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Brusque",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk23680.png?w=18&h=18&f=sd",
+        "away_team": "Figueirense",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk17198.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/1793101/8028304/"
+    },
+    {
+        "sport": "football",
+        "home_team": "Amazonas",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk145359.png?w=18&h=18&f=sd",
+        "away_team": "Associacao Olímpica de Itabaiana",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk23692.png?w=18&h=18&f=sd",
+        "score": "0-0",
+        "time_minutes": "0",
+        "stream_url": "https://en12.sportplus.live/football/1793101/8028305/"
+    }
+]
+
+
+[
+    {
+        "sport": "football",
+        "home_team": "Herois do Huambo",
+        "home_logo": "https://cdn.ovbstdn.com/onexbet/pk1263783.png?w=18&h=18&f=sd",
+        "away_team": "Alto Zambeze",
+        "away_logo": "https://cdn.ovbstdn.com/onexbet/pk1326879.png?w=18&h=18&f=sd",
+        "score": "1-0",
         "time_minutes": "53",
         "stream_url": "https://en12.sportplus.live/football/2738669/8038695/"
     },
