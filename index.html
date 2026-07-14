@@ -1,59 +1,182 @@
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <title>TrueGoals IPTV Pro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SportPlus - بوابة المشاهدة</title>
+    <!-- استدعاء خطوط Google Font الاحترافية (Cairo للعربي و Poppins للإنجليزي) -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+    <!-- استدعاء مكتبة الأيقونات FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
     <style>
-        body { margin:0; background:#0c0813; font-family:Tahoma; color:#fff; overflow:hidden; display:flex; height:100vh; }
-        #player-side { flex:1; background:#000; }
-        #side-panel { width:320px; background:#1a1033; display:flex; flex-direction:column; border-left:2px solid #7c2ae8; padding:10px; }
-        #channel-list { flex:1; overflow-y:auto; margin-top:10px; }
-        .ch-btn { display:block; width:100%; margin-bottom:5px; padding:10px; background:#2e1065; color:#fff; border:1px solid #7c2ae8; border-radius:5px; cursor:pointer; font-size:12px; text-align:left; }
-        .ch-btn:hover { background:#7c2ae8; }
-        input { width:100%; padding:10px; background:#000; color:#fff; border:1px solid #7c2ae8; border-radius:5px; box-sizing:border-box; }
+        /* إعدادات الخلفية والتنسيق العام */
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+            font-family: 'Cairo', 'Poppins', sans-serif;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* عناصر جمالية في الخلفية لإعطاء عمق للتصميم */
+        body::before, body::after {
+            content: '';
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #00ff87, #60efff);
+            filter: blur(150px);
+            opacity: 0.15;
+            z-index: 0;
+        }
+        body::before { top: -50px; right: -50px; }
+        body::after { bottom: -50px; left: -50px; }
+
+        /* حاوية التصميم الرئيسية (بطاقة زجاجية - Glassmorphism) */
+        .container {
+            position: relative;
+            z-index: 1;
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            padding: 40px 30px;
+            border-radius: 24px;
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        /* تنسيق الشعار واسم التطبيق */
+        .logo-area {
+            margin-bottom: 25px;
+        }
+        .logo-icon {
+            font-size: 3.5rem;
+            background: linear-gradient(45deg, #22c55e, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: pulse 2s infinite;
+        }
+        .app-name {
+            font-family: 'Poppins', 'Cairo', sans-serif;
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #ffffff;
+            margin: 10px 0 5px 0;
+            letter-spacing: 1px;
+        }
+        .app-name span {
+            color: #22c55e; /* تلوين كلمة Plus باللون الأخضر الرياضي */
+        }
+
+        /* النص الوصفي */
+        .description {
+            color: #94a3b8;
+            font-size: 1rem;
+            margin-bottom: 35px;
+            line-height: 1.6;
+        }
+
+        /* زر الدخول الاحترافي */
+        .btn-premium {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            padding: 16px 32px;
+            font-size: 1.15rem;
+            font-weight: bold;
+            color: #0f172a;
+            background: linear-gradient(45deg, #22c55e, #06b6d4);
+            border: none;
+            border-radius: 14px;
+            text-decoration: none;
+            box-shadow: 0 8px 20px rgba(34, 197, 94, 0.3);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+
+        /* تأثيرات حركة الزر عند التفاعل */
+        .btn-premium:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(6, 182, 212, 0.5);
+            color: #ffffff;
+        }
+        .btn-premium:active {
+            transform: translateY(-2px);
+        }
+        .btn-premium i {
+            font-size: 1.3rem;
+            transition: transform 0.3s ease;
+        }
+        .btn-premium:hover i {
+            transform: translateX(-5px); /* تحريك السهم الموجه لليمين/اليسار */
+        }
+
+        /* تذييل الصفحة لحفظ الحقوق */
+        .footer-text {
+            margin-top: 30px;
+            font-size: 0.8rem;
+            color: #64748b;
+        }
+
+        /* حركات الأنميشن (Animations) */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
     </style>
 </head>
 <body>
-    <div id="player-side">
-        <iframe id="main-player" style="width:100%; height:100%; border:none;" allowfullscreen></iframe>
+
+    <div class="container">
+        <!-- منطقة الشعار -->
+        <div class="logo-area">
+            <div class="logo-icon">
+                <i class="fa-solid mt-1 fa-circle-play"></i>
+            </div>
+            <h1 class="app-name">Sport<span>Plus</span></h1>
+        </div>
+
+        <!-- النص الترحيبي -->
+        <p class="description">
+            مرحباً بك في المنصة الرسمية. اضغط على الزر أدناه للانتقال البث المباشر ومتابعة أقوى المباريات والبطولات.
+        </p>
+
+        <!-- زر الانتقال الاحترافي -->
+        <a href="http://fctv33hd.surf/" class="btn-premium">
+            <span>دخول المنصة الآن</span>
+            <i class="fa-solid fa-arrow-left"></i>
+        </a>
+
+        <!-- حقوق الحقوق -->
+        <div class="footer-text">
+            &copy; 2026 SportPlus. جميع الحقوق محفوظة.
+        </div>
     </div>
-    <div id="side-panel">
-        <h3 style="color:#00ffcc; text-align:center;">🎮 TrueGoals IPTV</h3>
-        <input type="text" id="search" placeholder="🔍 بحث عن قناة...">
-        <div id="channel-list"></div>
-    </div>
 
-    <script>
-        const GITHUB_URL = "https://raw.githubusercontent.com/rnrnrnbfbrnrnr-commits/Fnkfkfkfk/refs/heads/main/Kekfkfndn";
-        let allChannels = [];
-
-        async function load() {
-            const res = await fetch(GITHUB_URL);
-            const text = await res.text();
-            text.split('\n').forEach(line => {
-                const match = line.match(/الاسم:\s*(.+)\s*\|\s*ID:\s*(\d+)/i);
-                if (match) allChannels.push({ name: match[1].trim(), id: match[2].trim() });
-            });
-            render(allChannels);
-        }
-
-        function render(list) {
-            const container = document.getElementById('channel-list');
-            container.innerHTML = '';
-            list.forEach(ch => {
-                const btn = document.createElement('button');
-                btn.className = 'ch-btn';
-                btn.innerText = ch.name;
-                btn.onclick = () => document.getElementById('main-player').src = `https://dlhd.st/stream/stream-${ch.id}.php`;
-                container.appendChild(btn);
-            });
-        }
-
-        document.getElementById('search').oninput = (e) => {
-            render(allChannels.filter(ch => ch.name.toLowerCase().includes(e.target.value.toLowerCase())));
-        };
-
-        load();
-    </script>
 </body>
 </html>
